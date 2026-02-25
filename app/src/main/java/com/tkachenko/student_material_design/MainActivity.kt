@@ -105,3 +105,14 @@ fun StudentApp(){
         }
     }
 }
+@Preview
+@Composable
+fun Studenrprew(){
+    Student_Material_DesignTheme(darkTheme = false) { StudentApp()}
+}
+
+@Preview
+@Composable
+fun StudentdarkthemePreview(){
+    Student_Material_DesignTheme(darkTheme = true) { StudentApp()}
+}
